@@ -10,17 +10,14 @@ const ObjectiveBox = () => {
   ];
   const [idx, setIdx] = useState(0);
 
-  const changeSkill = () => {
-    if (idx == skills.length - 1) {
-        setIdx(0);
-    } else {
-      let timeout = setTimeout(() => {
-        setIdx((curr) => curr + 1);
-      }, 3000);
-      return () => clearTimeout(timeout);
-    }
-  };
-  useEffect(() => changeSkill,[idx]);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setIdx((prevIdx) => (prevIdx + 1) % skills.length);
+    }, 3000);
+
+    // Cleanup timeout to prevent memory leaks
+    return () => clearTimeout(timeout);
+  }, [idx]); // Depend on `idx` to trigger re-render
 
   return (
     <Container maxWidth="lg">
