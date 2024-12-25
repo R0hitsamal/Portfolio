@@ -6,7 +6,7 @@ const ObjectiveBox = () => {
     "Full Stack Developer",
     "MERN Stack Expert",
     "MongoDB Specialist",
-    "DevOop's Enthusiast"
+    "DevOps Enthusiast"
   ];
   const [idx, setIdx] = useState(0);
 
