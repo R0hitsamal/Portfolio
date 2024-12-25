@@ -22,7 +22,7 @@ createRoot(document.getElementById("root")).render(
         <Router>
           <Routes>
           <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app"
+              path="https://rohit-kumar-samal-portfolio.vercel.app/"
               element={
                 <>
                   <Homepage />
