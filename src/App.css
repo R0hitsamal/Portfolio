@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: Roboto;
+  color: white !important;
+}
+html {
+  border: 6px solid white;
+}
+body {
+  background-color: black !important;
+}
+a {
+  text-decoration: none;
+}
+.Icon {
+  color: #88c273 !important;
+}
+.contact {
+  color: #88c273 !important;
+  font-size: 1.5rem;
+}
+.ProjectBtn {
+  &:hover {
+    background-color: #88c273 !important;
+    color: black !important;
+  }
+}
+.skill {
+  font-size: 0.7rem;
+  padding: 2px 6px;
+  background-color: #88c273;
+  border-radius: 15px;
+  color: black !important;
+  font-weight: 500;
+}
+.ProjectCard {
+  transition: linear 0.25s;
+  &:hover {
+    scale: 1.03;
+  }
+}
+.spanHead {
+  color: #88c273 !important;
+}
+.resumebtn {
+  background-color: #88c273 !important;
+  color: black !important;
+  margin-bottom: 25px !important;
+  font-size: 1rem !important;
+}
+.objImage {
+  height: 400px;
+  width: 400px;
+  background-image: url("/Images/profile.jpg");
+  background-size: cover;
+  border-radius: 8px;
+}
+.objImageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.techDataCards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.SkillAndAbilityBox {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.techListCard {
+  transition: linear 0.25s;
+  &:hover {
+    scale: 1.05;
+  }
+}
+.AbilityCol {
+  color: yellow !important;
+}
+.Iconbtn {
+  fill: #88c273 !important;
+}
