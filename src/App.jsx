@@ -22,6 +22,15 @@ createRoot(document.getElementById("root")).render(
         <Router>
           <Routes>
             <Route
+              path="/"
+              element={
+                <>
+                  <Homepage />
+                  
+                </>
+              }
+            ></Route>
+            <Route
               path="/Home"
               element={
                 <>
