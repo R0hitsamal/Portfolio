@@ -8,7 +8,7 @@ import Homepage from "./Pages/Homepage";
 import Projects from "./Pages/Projects";
 import {ThemeProvider, CssBaseline} from "@mui/material";
 import {createTheme} from "@mui/material/styles";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
@@ -22,7 +22,7 @@ createRoot(document.getElementById("root")).render(
         <Router>
           <Routes>
           <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app/"
+              path="/"
               element={
                 <>
                   <Homepage />
@@ -31,7 +31,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app/Home"
+              path="/Home"
               element={
                 <>
                   <Homepage />
@@ -40,7 +40,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app/about"
+              path="/about"
               element={
                 <>
                   <About />
@@ -48,7 +48,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app/projects"
+              path="/projects"
               element={
                 <>
                   <Projects />
@@ -56,7 +56,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="https://rohit-kumar-samal-portfolio.vercel.app/contact"
+              path="/contact"
               element={
                 <>
                   <Contact />
