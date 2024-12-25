@@ -22,7 +22,7 @@ createRoot(document.getElementById("root")).render(
         <Router>
           <Routes>
           <Route
-              path="/"
+              path="https://rohit-kumar-samal-portfolio.vercel.app"
               element={
                 <>
                   <Homepage />
@@ -31,7 +31,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="/Home"
+              path="https://rohit-kumar-samal-portfolio.vercel.app/Home"
               element={
                 <>
                   <Homepage />
@@ -40,7 +40,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="/about"
+              path="https://rohit-kumar-samal-portfolio.vercel.app/about"
               element={
                 <>
                   <About />
@@ -48,7 +48,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="/projects"
+              path="https://rohit-kumar-samal-portfolio.vercel.app/projects"
               element={
                 <>
                   <Projects />
@@ -56,7 +56,7 @@ createRoot(document.getElementById("root")).render(
               }
             ></Route>
             <Route
-              path="/contact"
+              path="https://rohit-kumar-samal-portfolio.vercel.app/contact"
               element={
                 <>
                   <Contact />
