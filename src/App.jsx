@@ -8,7 +8,7 @@ import Homepage from "./Pages/Homepage";
 import Projects from "./Pages/Projects";
 import {ThemeProvider, CssBaseline} from "@mui/material";
 import {createTheme} from "@mui/material/styles";
-import {BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import {HashRouter as Router, Routes, Route} from "react-router-dom";
 const darkTheme = createTheme({
   palette: {
     mode: "dark",
