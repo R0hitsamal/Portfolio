@@ -21,15 +21,6 @@ createRoot(document.getElementById("root")).render(
         <CssBaseline />
         <Router>
           <Routes>
-          <Route
-              path="/"
-              element={
-                <>
-                  <Homepage />
-                  
-                </>
-              }
-            ></Route>
             <Route
               path="/Home"
               element={
