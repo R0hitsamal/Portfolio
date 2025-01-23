@@ -35,7 +35,7 @@ const ObjectiveBox = () => {
             challenges, I’m dedicated to creating innovative solutions that make
             an impact.
           </Typography>
-          <a href="/Resume/RohitKumarSamal-Resume new.pdf" rel="noopener noreferrer" target="_blank">
+          <a href="/Resume/RohitKumarSamal-Resume.pdf" rel="noopener noreferrer" target="_blank">
             <Button
               className="resumebtn"
               variant="contained"
