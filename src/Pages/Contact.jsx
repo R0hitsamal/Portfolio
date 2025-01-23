@@ -21,7 +21,7 @@ export default function Contact() {
           marginBottom : 13,
         }}
       >
-        <Typography className="contactHead" align="center" variant="h3" gutterBottom>
+        <Typography className="contactHead" align="center" variant="h3" sx={{marginBottom: 3}}>
           Feel free to contact me!
         </Typography>
         <Avatar
