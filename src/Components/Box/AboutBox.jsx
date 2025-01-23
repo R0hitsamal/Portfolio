@@ -1,5 +1,5 @@
 import {Grid, Typography, Box, IconButton} from "@mui/material";
-import { about } from "../../../public/Data/Data";
+import { about } from "/public/Data/Data.js";
 import {Avatar} from "@mui/material";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -9,11 +9,11 @@ const AboutBox = () => {
   return (
     <>
       <Grid item md={8} sm={12}>
-        <Typography sx={{marginTop: 7, marginBottom: 2, paddingLeft:3,paddingRight : 3}} variant="h2">
+        <Typography className="headingOfPage" sx={{marginTop: 7, marginBottom: 2, paddingLeft:3,paddingRight : 3}} variant="h2">
           Hey! I'm <span className="spanHead">Rohit Kumar Samal</span> and I'm a <span className="spanHead">full stack engineer.</span>
         </Typography>
         {about.map((a, idx) => (
-          <Typography sx={{marginBottom: 3, paddingLeft:3,paddingRight : 3}} key={idx} variant="body1">
+          <Typography sx={{marginBottom: 2, paddingLeft:3,paddingRight : 3}} key={idx} variant="body1">
             {a}
           </Typography>
         ))}
@@ -62,7 +62,7 @@ const AboutBox = () => {
       >
         <Avatar
           alt="Rohit"
-          src="/Images/profile.jpg"
+          src="/Images/ProfileImg.jpg"
           sx={{width: 280, height: 280}}
           style={{marginRight: "15px", border: "4px solid #88c273"}}
         />

@@ -14,7 +14,7 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import Avatar from "@mui/material/Avatar";
 import { Link } from "react-router-dom";
-import { Container, Divider } from "@mui/material";
+import { Container } from "@mui/material";
 const drawerWidth = 240;
 const navItems = ["Home", "About", "Projects", "Contact"];
 
@@ -57,7 +57,7 @@ function DrawerAppBar({act}) {
       <Toolbar sx={{height: "74px"}}>
         <Avatar
           alt="Rohit"
-          src="/Images/profile.jpg"
+          src="/Images/ProfileImg.jpg"
           sx={{width: 40, height: 40}}
           style={{marginRight: "15px", border: "2px solid #88c273"}}
         />

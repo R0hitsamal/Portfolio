@@ -8,7 +8,7 @@ import XIcon from "@mui/icons-material/X";
 export default function Contact() {
   return (
     <>
-      <Navbar act={"Contact"} />
+      <Navbar id="contact" act={"Contact"} />
       <Box
         sx={{
           height: "90vh",
@@ -21,11 +21,11 @@ export default function Contact() {
           marginBottom : 13,
         }}
       >
-        <Typography align="center" variant="h3" gutterBottom>
+        <Typography className="contactHead" align="center" variant="h3" gutterBottom>
           Feel free to contact me!
         </Typography>
         <Avatar
-          src=" /Images/profile.jpg"
+          src=" /Images/ProfileImg.jpg"
           sx={{width: 200, height: 200}}
           style={{border: "4px solid #88c273"}}
         />

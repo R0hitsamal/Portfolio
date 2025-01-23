@@ -44,17 +44,31 @@ a {
   color: #88c273 !important;
 }
 .resumebtn {
+  border: 2px solid #88c273 !important;
   background-color: #88c273 !important;
   color: black !important;
   margin-bottom: 25px !important;
-  font-size: 1rem !important;
+  font-size: 0.95rem !important;
+  &:hover {
+    border: border-box !important;
+    background-color: transparent !important;
+    border: #88c273 2px solid !important;
+    color: white !important;
+    transition: linear 0.25s;
+  }
 }
 .objImage {
   height: 400px;
   width: 400px;
-  background-image: url("/Images/profile.jpg");
+  background-image: url("/Images/ProfileImg.jpg");
   background-size: cover;
   border-radius: 8px;
+}
+.profileImg {
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  object-fit: cover;
 }
 .objImageContainer {
   display: flex;
@@ -86,4 +100,13 @@ a {
 }
 .Iconbtn {
   fill: #88c273 !important;
+}
+
+@media screen and (max-width: 600px) {
+  .headingOfPage {
+    font-size: 3rem !important;
+  }
+  .contactHead {
+    font-size: 2rem !important;
+  }
 }

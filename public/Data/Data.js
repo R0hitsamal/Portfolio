@@ -48,11 +48,11 @@ const projects = [
 
 const about = [
         "I'm passionate about technology and education, and my journey has led me through various roles—developer, content creator, entrepreneur, and innovator. As a developer, I work primarily with the MERN stack and have hands-on experience building full-stack applications.",
-        "Currently, I am a Co-Lead at GDG for GITA Autonomous College and an intern at SequSpace. a startup where I work, I have contributed to both frontend and backend projects using technologies like React, TypeScript, Node.js, and MySQL. I’ve also developed and deployed live projects such as voiceworld.live, a video conferencing platform.",
+        "My problem-solving skills are continuously refined through daily practice in Data Structures and Algorithms (DSA) on LeetCode. This consistent effort sharpens my ability to tackle complex challenges effectively.",
         "I’m also focused on cloud computing and DevOps, exploring services like EC2, S3, and VPC. my interest in building secure and scalable applications.",
+        "I thrive on learning new technologies and exploring innovative ways to create impactful solutions. Collaborating with talented professionals and contributing to cutting-edge projects excites me as I work toward growing within the tech industry.",
         "Outside of work, I enjoy creating educational content and simplifying complex technical concepts for others. I’m dedicated to helping the next generation of developers by sharing knowledge and creating easy-to-follow tutorials."
 ]
-
 const techData = [
   {
     title: "DSA",
