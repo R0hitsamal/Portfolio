@@ -27,6 +27,7 @@ const ObjectiveBox = () => {
             .
           </Typography>
           <Typography
+          className="objective"
             sx={{margin: "20px 0px 20px 0px", fontSize: "1.5rem"}}
             variant="body2"
           >

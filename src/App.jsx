@@ -21,22 +21,19 @@ createRoot(document.getElementById("root")).render(
         <CssBaseline />
         <Router>
           <Routes>
-          <Route
+            <Route
               path="/"
               element={
                 <>
                   <Homepage />
-                  
                 </>
               }
             ></Route>
             <Route
               path="/Home"
               element={
-                
                 <>
                   <Homepage />
-                  
                 </>
               }
             ></Route>
